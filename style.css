@@ -1,0 +1,122 @@
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    margin-right: 5px;
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+}
+
+span {
+    padding-left: 4px;
+    color: hsl(0, 0%, 100%);
+}
+
+h3:hover , span:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
+}
+
+.itemsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.cardContent {
+    border: 1px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: hsl(216, 50%, 16%);
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(215, 51%, 70%);
+    width: min-content;
+    padding: 15px;
+}
+
+#nftImage {
+    border: 1px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: hsl(216, 50%, 16%);
+    width: 300px;
+    position: relative;
+}
+
+.view {
+    width: 300px;
+    height: 300px;
+    background-color: hsl(178, 100%, 50%);
+    position: absolute;
+    border-radius: 15px;
+    margin: 1px;
+}
+
+#viewImage {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+#nftImage:hover {
+    opacity: 0.3;
+}
+
+.timePrice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price {
+    color: hsl(178, 100%, 50%)
+}
+
+.inventor {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#inventorImage {
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 100%;
+    width: 40px;
+    margin-right: 20px;
+}
+
+.attribution { 
+    display: flex;
+    justify-content: center;
+    font-size: 11px; 
+    color: hsl(227, 27%, 51%);
+    padding: 10px;
+}
+
+.attribution a { 
+    color: skyblue; 
+    text-decoration: none;
+    padding-left: 2px;
+    padding-right: 1px;
+}
+
+@media  (max-width:375px) {
+    .cardContent {
+        width: 350px;
+    }
+}
